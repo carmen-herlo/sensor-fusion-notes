@@ -1,0 +1,20 @@
+# Ignore PDF files in papers and books directories
+papers/*.pdf
+papers-multi-platform/*.pdf
+books/*.pdf
+
+# Ignore temporary or log files
+*.tmp
+*.log
+*.bak
+
+# Ignore system files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Ignore editor temp files (VS Code)
+.vscode/
+*.code-workspace
+
+# Ignore Linux swap/temp files
+*~
